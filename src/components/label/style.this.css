@@ -1,0 +1,12 @@
+:this[container] {
+    width: 100%;
+    padding: .8rem 1rem 0px;
+    box-sizing: border-box;
+}
+
+:this[title] {
+    font-size: 11px;
+    font-weight: 600;
+    opacity: .5;
+    padding-bottom: .5rem;
+}

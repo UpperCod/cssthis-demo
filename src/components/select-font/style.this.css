@@ -1,0 +1,27 @@
+:this(label) {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+:this(label) input {
+    display: none;
+}
+
+:this(label) input:checked+div {
+    background: rgba(0, 0, 0, .1);
+}
+
+:this(label)>div {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background: rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: .3s ease all;
+}
