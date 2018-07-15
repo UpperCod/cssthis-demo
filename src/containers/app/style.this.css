@@ -72,6 +72,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: unset;
+    padding: 0px 5px;
 }
 
 @media (max-width:720px) {

@@ -94,12 +94,10 @@ export default class extends Component {
                             content={[
                                 <span>
                                     What you see is an example using
-                                    <a href="https://rollupjs.org">
-                                        Rollup
-                                    </a> ,{" "}
+                                    <a href="https://rollupjs.org">Rollup,</a>
                                     <a href="https://github.com/uppercod/cssthis">
-                                        Cssthis{" "}
-                                    </a>{" "}
+                                        Cssthis
+                                    </a>
                                     and
                                     <a href="https://preactjs.com">Preact</a>.
                                     The result is extremely light, fast and

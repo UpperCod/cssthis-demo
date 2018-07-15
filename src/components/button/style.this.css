@@ -19,7 +19,3 @@
 :this {
     margin: 2.5px;
 }
-
-:this[a]+ :this[b] {
-    color: orange;
-}
