@@ -107,6 +107,8 @@ export default class extends Component {
                                 <br />,
                                 <a href="https://github.com/uppercod/cssthis">
                                     <Button>Github cssthis</Button>
+                                </a>,
+                                <a href="https://github.com/UpperCod/cssthis-demo/tree/gh-pages">
                                     <Button>Github this code</Button>
                                 </a>
                             ]}
