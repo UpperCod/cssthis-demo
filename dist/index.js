@@ -984,7 +984,6 @@ extend(Component.prototype, {
 function render(vnode, parent, merge) {
   return diff(merge, vnode, {}, false, parent, false);
 }
-//# sourceMappingURL=preact.esm.js.map
 
 function connect(list, value) {
     if (!exist(list, value)) { list.push(value); }
@@ -1153,7 +1152,6 @@ function style(tag, props) {
         }(Component));
     };
 }
-//# sourceMappingURL=index.js.map
 
 function css$1 (props){ return ("." + (props.cn) + "[container] {\n    width: 100%;\n    height: 100%;\n    color: white;\n    background: " + (props.primary) + ";\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    padding: 0px 100px;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n\n." + (props.cn) + "[container][shadow] {\n    -webkit-box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.15);\n            box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.15);\n}\n\n." + (props.cn) + "[container][radius] {\n    border-radius: 3px;\n}\n\n." + (props.cn) + "[group] {\n    max-width: 680px;\n}\n\nh1." + (props.cn) + " {\n    font-size: 32px;\n}\n\np." + (props.cn) + " {\n    font-size: 14px;\n}\n\n@media (max-width:720px) {\n    ." + (props.cn) + "[container] {\n        padding: 50px;\n        text-align: center;\n    }\n}\n\n@media (max-width:520px) {\n    ." + (props.cn) + "[container] {\n        padding: 1rem;\n    }\n    h1." + (props.cn) + " {\n        font-size: 22px;\n    }\n}"); }
 
@@ -1311,7 +1309,9 @@ var defaultExport = (function (Component$$1) {
                                 h( 'br', null ),
                                 h( 'span', null, "Create amazing styles for your components without stopping using css" )
                             ], content: [
-                                h( 'span', null, "What you see is an example using ", h( 'a', { href: "https://rollupjs.org" }, "Rollup"), ", ", h( 'a', { href: "https://github.com/uppercod/cssthis" }, "Cssthis"), "and ", h( 'a', { href: "https://preactjs.com" }, "Preact"), ". The result is extremely light, fast and customizable" ),
+                                h( 'span', null, "What you see is an example using ", h( 'a', { href: "https://rollupjs.org" }, "Rollup"), " ,", " ", 
+                                    h( 'a', { href: "https://github.com/uppercod/cssthis" }, "Cssthis", " "
+                                    ), " ", "and ", h( 'a', { href: "https://preactjs.com" }, "Preact"), ". The result is extremely light, fast and customizable" ),
                                 h( 'br', null ),
                                 h( 'br', null ),
                                 h( 'a', { href: "https://github.com/uppercod/cssthis" }, 
