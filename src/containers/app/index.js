@@ -1,5 +1,5 @@
 import css from "./style.this.css";
-import { style, Theme } from "cssthis/preact";
+import { style, Theme } from "cssthis";
 import { h, Component } from "preact";
 import Hero from "../../components/hero";
 import SelectColor from "../../components/select-color";
@@ -83,35 +83,42 @@ export default class extends Component {
                     </Layout>
                     <Layout content>
                         <Hero
-                            title={[
-                                <Logo color="white" />,
-                                <br />,
-                                <span>
-                                    Create amazing styles for your components
-                                    without stopping using css
-                                </span>
-                            ]}
-                            content={[
-                                <span>
-                                    What you see is an example using
-                                    <a href="https://rollupjs.org">Rollup,</a>
+                            title={
+                                <div>
+                                    <Logo color="white" />,
+                                    <br />
+                                    <span>
+                                        Create amazing styles for your
+                                        components without stopping using css
+                                    </span>
+                                </div>
+                            }
+                            content={
+                                <div>
+                                    <span>
+                                        What you see is an example using
+                                        <a href="https://rollupjs.org">
+                                            Rollup,
+                                        </a>
+                                        <a href="https://github.com/uppercod/cssthis">
+                                            Cssthis
+                                        </a>
+                                        and
+                                        <a href="https://preactjs.com">
+                                            Preact
+                                        </a>. The result is extremely light,
+                                        fast and customizable
+                                    </span>
+                                    <br />
+                                    <br />
                                     <a href="https://github.com/uppercod/cssthis">
-                                        Cssthis
+                                        <Button>Github cssthis</Button>
                                     </a>
-                                    and
-                                    <a href="https://preactjs.com">Preact</a>.
-                                    The result is extremely light, fast and
-                                    customizable
-                                </span>,
-                                <br />,
-                                <br />,
-                                <a href="https://github.com/uppercod/cssthis">
-                                    <Button>Github cssthis</Button>
-                                </a>,
-                                <a href="https://github.com/UpperCod/cssthis-demo/tree/gh-pages">
-                                    <Button>Github this code</Button>
-                                </a>
-                            ]}
+                                    <a href="https://github.com/UpperCod/cssthis-demo/tree/gh-pages">
+                                        <Button>Github this code</Button>
+                                    </a>
+                                </div>
+                            }
                         />
                     </Layout>
                 </Layout>

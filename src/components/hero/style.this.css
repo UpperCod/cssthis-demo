@@ -21,14 +21,6 @@
     max-width: 680px;
 }
 
-:this(h1) {
-    font-size: 32px;
-}
-
-:this(p) {
-    font-size: 14px;
-}
-
 @media (max-width:720px) {
     :this[container] {
         padding: 50px;

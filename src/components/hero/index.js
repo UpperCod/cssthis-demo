@@ -1,6 +1,6 @@
-import css from "./style.this.css";
 import { h } from "preact";
-import { style } from "cssthis/preact";
+import { style } from "cssthis";
+import css from "./style.this.css";
 
 let Layout = style("div")(css);
 
